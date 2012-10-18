@@ -3,9 +3,6 @@
 (setq custom-file "~/.emacs.d/eliot/custom.el")
 (load custom-file 'noerror)
 
-(interactive)
-(load "eliot/secrets")
-
 ;; eliot custom scripts
 (load "eliot/env" )
 (load "eliot/js")
