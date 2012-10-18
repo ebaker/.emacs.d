@@ -1,0 +1,17 @@
+.smex-items
+abbrev_defs
+ac-comphist.dat
+auto-save-list
+backups
+bookmarks
+ede-projects.el
+elpa/*
+eshell
+places
+url
+eliot/custom.el
+*elc
+.DS_Store
+starter-kit-2.*
+*.tar
+TAGS
