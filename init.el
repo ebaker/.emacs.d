@@ -37,6 +37,7 @@
                       ;; hexrgb
                       popup
                       ;; multi-eshell
+                      epg
                       )
   "A list of packages to ensure are installed at launch.")
 
@@ -47,3 +48,4 @@
 (add-to-list 'load-path "~/.emacs.d")
 (load "eliot" )
 
+(put 'dired-find-alternate-file 'disabled nil)

@@ -20,15 +20,16 @@
 ;; (add-to-list 'load-path "~/.emacs.d/elisp/twittering-mode")
 (require 'twittering-mode)
 
+
+;; (require 'epa-file)
+;; (epa-file-enable)
+;; Needs gpg and easygpg setup
 (setq twittering-use-master-password t) ; To avoid having to authorize twittering-mode everytime you run it
 
 (setq twittering-icon-mode t)                ; Show icons
 (setq twittering-timer-interval 300)         ; Update your timeline each 300 seconds (5 minutes)
 (setq twittering-url-show-status nil)        ; Keeps the echo area from showing all the http processes
 
-(setq twittering-curl-program "~/.emacs.d/elisp/twittering-mode/win-curl/curl.exe") ;; Trouble finding curl/openssl before, specifying fixed issue
-;;(setq twittering-cert-file
-                                        ;"~/.emacs.d/elisp/twittering-mode/win-curl/equifax.cer")
 
 ;; Twittering mode custom keybindings
 (add-hook 'twittering-mode-hook

@@ -1,3 +1,9 @@
+(defun frame-bck()
+  (interactive)
+  (other-window -1)
+)
+(define-key (current-global-map) (kbd "M-o") 'other-window)
+(define-key (current-global-map) (kbd "M-O") 'frame-bck)
 
 ;; https://sites.google.com/site/steveyegge2/effective-emacs
 
