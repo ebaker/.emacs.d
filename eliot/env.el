@@ -42,9 +42,8 @@
       (setenv "PYTHON" "/opt/local/bin/python2.7")
       ))
 
-;; Not ready for evil right now haha
-;; (add-to-list 'load-path "~/.emacs.d/elisp/evil")
-;; (require 'evil)
-;; (evil-mode 1)
+;; Ready for evil right now haha
+(require 'evil)
+(evil-mode 1)
 
 ;; (provide 'eliot-env)

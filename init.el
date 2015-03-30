@@ -22,6 +22,7 @@
                       starter-kit-js
                       color-theme
                       org
+                      evil
                       php-mode
                       jabber
                       yasnippet

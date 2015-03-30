@@ -15,3 +15,8 @@ eliot/custom.el
 starter-kit-2.*
 *.tar
 TAGS
+\#*#
+.#*
+ido.last
+org-clock-save.el
+recentf
